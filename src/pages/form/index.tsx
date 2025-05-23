@@ -73,7 +73,7 @@ export default function FormPage() {
               <FormItem>
                 <FormLabel>Username</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input placeholder="shaden" {...field} />
                 </FormControl>
                 <FormDescription>
                   This is your public display name.
@@ -82,7 +82,7 @@ export default function FormPage() {
               </FormItem>
             )}
           />
-          <Button disabled={isSubmitting} type="submit">
+          <Button disabled={isSubmitting} type="Submit">
             Submit
           </Button>
         </form>
